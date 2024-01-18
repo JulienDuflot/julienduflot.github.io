@@ -3,15 +3,15 @@
     "type": "IFRAME",
     "width": 890,
     "height": 748,
-    "uri": "https://example.com/settings-iframe-contents",
-    "label": "Settings"
+    "uri": "https://webhook.site/#!/8f2ef1dd-a2cb-4462-9e30-1385ced8ae77/2b57346f-8a70-40c6-b1a4-c4f0ef8e1b37/1",
+    "label": "Check"
   },
   "primaryAction": {
     "type": "IFRAME",
     "width": 890,
     "height": 748,
-    "uri": "https://example.com/create-iframe-contents",
-    "label": "Create Ticket"
+    "uri": "https://webhook.site/8f2ef1dd-a2cb-4462-9e30-1385ced8ae77",
+    "label": "Send webhook"
   },
     "results": [
 
