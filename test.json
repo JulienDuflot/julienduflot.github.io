@@ -1,51 +1,13 @@
 {
-  "settingsAction": {
-    "type": "IFRAME",
-    "width": 890,
-    "height": 748,
-    "uri": "https://webhook.site/#!/8f2ef1dd-a2cb-4462-9e30-1385ced8ae77/2b57346f-8a70-40c6-b1a4-c4f0ef8e1b37/1",
-    "label": "Check"
-  },
-  "primaryAction": {
-    "type": "IFRAME",
-    "width": 890,
-    "height": 748,
-    "uri": "https://webhook.site/8f2ef1dd-a2cb-4462-9e30-1385ced8ae77",
-    "label": "Send webhook"
-  },
-    "results": [
-      {
-        "objectId": 988,
-        "title": "Importer les entreprises similaires",
-        "link": "http://example.com/2",
-          "properties": [
-            {
-              "label": "Nombre",
-              "dataType": "STRING",
-              "value": "9 781"
-            },
-          ],
-          "actions": [
-            {
-              "type": "IFRAME",
-              "width": 890,
-              "height": 748,
-              "uri": "https://example.com/edit-iframe-contents",
-              "label": "Edit"
-            },
-            {
-              "type": "CONFIRMATION_ACTION_HOOK",
-              "confirmationMessage": "Are you sure you want to delete this ticket?",
-              "confirmButtonText": "Yes",
-              "cancelButtonText": "No",
-              "httpMethod": "DELETE",
-              "associatedObjectProperties": [
-                "protected_account"
-              ],
-              "uri": "https://example.com/tickets/245",
-              "label": "Delete"
-            }
-          ]
+  "results": [
+    {
+      "properties": [
+        {
+          "label": "Date",
+          "dataType": "DATE",
+          "value": "2023-10-13"
         }
-    ]
+      ]
+    }
+  ]
 }
